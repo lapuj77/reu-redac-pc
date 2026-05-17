@@ -1,0 +1,904 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Passer au contenu" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - text: 
+          - heading "01net.com 01net.com" [level=1] [ref=e8]:
+            - img "01net.com" [ref=e9]
+            - generic [ref=e10]: 01net.com
+          - text:  
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - search [ref=e13]:
+              - textbox "Rechercher une news, produit, un logiciel, ..." [ref=e14]
+              - button "Rechercher" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: 
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link " Newsletter" [ref=e19] [cursor=pointer]:
+                  - /url: https://www.01net.com/info/newsletters/
+                  - generic [ref=e20]: 
+                  - text: Newsletter
+          - generic [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Actu" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.01net.com/actualites/
+              - listitem [ref=e25]:
+                - link "Tests" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.01net.com/tests/
+              - listitem [ref=e27]:
+                - link "Astuces" [ref=e28] [cursor=pointer]:
+                  - /url: https://www.01net.com/astuces/
+              - listitem [ref=e29]:
+                - link "Telecharger" [ref=e30] [cursor=pointer]:
+                  - /url: /telecharger/
+                  - text: Telecharger
+                  - img [ref=e31]
+              - listitem [ref=e32]:
+                - link "Bons Plans" [ref=e33] [cursor=pointer]:
+                  - /url: https://www.01net.com/bons-plans/
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "" [ref=e36] [cursor=pointer]:
+                  - /url: https://fr-fr.facebook.com/01net
+                  - generic [ref=e37]: 
+              - listitem [ref=e38]:
+                - link "" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC6joDErOGcFJC1vHNSfsYQg?sub_confirmation=1
+                  - generic [ref=e40]: 
+              - listitem [ref=e41]:
+                - link "" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.instagram.com/01net/?hl=fr
+                  - generic [ref=e43]: 
+              - listitem [ref=e44]:
+                - link "Bluesky" [ref=e45] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/01net.com
+                  - img [ref=e46]
+              - listitem [ref=e48]:
+                - link "" [ref=e49] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@01net.com?lang=fr
+                  - generic [ref=e50]: 
+            - button "Mode d'apparence" [ref=e52] [cursor=pointer]: 
+            - button "Menu" [ref=e54] [cursor=pointer]: 
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link " Smartphones" [ref=e59] [cursor=pointer]:
+            - /url: https://www.01net.com/smartphone-mobile/
+            - generic [ref=e60]: 
+            - generic [ref=e61]: Smartphones
+        - listitem [ref=e62]:
+          - link " PC" [ref=e63] [cursor=pointer]:
+            - /url: https://www.01net.com/pc-peripheriques/
+            - generic [ref=e64]: 
+            - generic [ref=e65]: PC
+        - listitem [ref=e66]:
+          - link " TV" [ref=e67] [cursor=pointer]:
+            - /url: https://www.01net.com/tv-video/
+            - generic [ref=e68]: 
+            - generic [ref=e69]: TV
+        - listitem [ref=e70]:
+          - link " Audio" [ref=e71] [cursor=pointer]:
+            - /url: https://www.01net.com/audio/
+            - generic [ref=e72]: 
+            - generic [ref=e73]: Audio
+        - listitem [ref=e74]:
+          - link " IA" [ref=e75] [cursor=pointer]:
+            - /url: /actualites/intelligence-artificielle/
+            - generic [ref=e76]: 
+            - generic [ref=e77]: IA
+        - listitem [ref=e78]:
+          - link " Cybersec" [ref=e79] [cursor=pointer]:
+            - /url: /actualites/securite/
+            - generic [ref=e80]: 
+            - generic [ref=e81]: Cybersec
+        - listitem [ref=e82]:
+          - link "Guides d’achat" [ref=e83] [cursor=pointer]:
+            - /url: https://www.01net.com/guide-achat/
+            - img [ref=e84]
+            - generic [ref=e86]: Guides d’achat
+        - listitem [ref=e87]:
+          - link " Maison connect. avec" [ref=e88] [cursor=pointer]:
+            - /url: https://www.01net.com/maison-connectee/
+            - generic [ref=e89]: 
+            - generic [ref=e90]: Maison connect.
+            - generic [ref=e91]:
+              - text: avec
+              - img [ref=e92]
+        - listitem [ref=e93]:
+          - link " VPN" [ref=e94] [cursor=pointer]:
+            - /url: /vpn/
+            - generic [ref=e95]: 
+            - generic [ref=e96]: VPN
+        - listitem [ref=e97]:
+          - link " Antivirus" [ref=e98] [cursor=pointer]:
+            - /url: /antivirus/
+            - generic [ref=e99]: 
+            - generic [ref=e100]: Antivirus
+        - listitem [ref=e101]:
+          - link " Mobilité" [ref=e102] [cursor=pointer]:
+            - /url: https://www.01net.com/mobilite/
+            - generic [ref=e103]: 
+            - generic [ref=e104]: Mobilité
+        - listitem [ref=e105]:
+          - link " Hébergement" [ref=e106] [cursor=pointer]:
+            - /url: /hebergeur/
+            - generic [ref=e107]: 
+            - generic [ref=e108]: Hébergement
+        - listitem [ref=e109]:
+          - link " Crypto" [ref=e110] [cursor=pointer]:
+            - /url: /crypto/
+            - generic [ref=e111]: 
+            - generic [ref=e112]: Crypto
+        - listitem [ref=e113]:
+          - link "Forfaits" [ref=e114] [cursor=pointer]:
+            - /url: /forfait-mobile/
+            - img [ref=e115]
+            - generic [ref=e117]: Forfaits
+    - generic [ref=e122]:
+      - main [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - 'link "Test iPad Air M4 13 pouces (2026) : presque aussi bien que l’iPad Pro ?" [ref=e126] [cursor=pointer]':
+              - /url: https://www.01net.com/tests/test-ipad-air-m4-13-pouces-2026-avis.html
+              - figure [ref=e127]:
+                - img "iPad Air M4 13 Pouces 2" [ref=e128]
+              - generic [ref=e129]: "Test iPad Air M4 13 pouces (2026) : presque aussi bien que l’iPad Pro ?"
+            - generic [ref=e131]:
+              - heading "Toute l'actu" [level=2] [ref=e132]:
+                - link "Toute l'actu" [ref=e133] [cursor=pointer]:
+                  - /url: /actualites/
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - time [ref=e136]:
+                    - generic [ref=e137]: 
+                    - text: 11:44
+                  - 'link "Windows 11 : Microsoft commence à forcer la mise à niveau vers 25H2 mais c’est pour votre bien" [ref=e139] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/windows-11-microsoft-commence-a-forcer-la-mise-a-niveau-vers-25h2-mais-cest-pour-votre-bien.html
+                - generic [ref=e140]:
+                  - time [ref=e141]:
+                    - generic [ref=e142]: 
+                    - text: 11:31
+                  - link "L’UFC-Que choisir s’attaque au nouveau forfait de Free, c’est quoi le problème ?" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/ufc-que-choisir-attaque-nouveau-forfait-free-cest-quoi-probleme.html
+                - generic [ref=e145]:
+                  - time [ref=e146]:
+                    - generic [ref=e147]: 
+                    - text: 11:25
+                  - 'link "iPhone 18 Pro : Apple ferait à nouveau une croix sur ce coloris" [ref=e149] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/liphone-18-pro-apple-croix-coloris-noir.html
+                - generic [ref=e150]:
+                  - time [ref=e151]:
+                    - generic [ref=e152]: 
+                    - text: 11:01
+                  - 'link "Une « supercherie » : le mode Incognito de Perplexity est accusé d’espionner vos conversations" [ref=e154] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/supercherie-mode-incognito-perplexity-accuse-espionner-conversations.html
+                - generic [ref=e155]:
+                  - time [ref=e156]:
+                    - generic [ref=e157]: 
+                    - text: 10:11
+                  - link "OpenAI veut se « recentrer », mais s’offre le podcast préféré de la Silicon Valley" [ref=e159] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/recentrer-openai-offre-podcast-prefere-silicon-valley.html
+                - generic [ref=e160]:
+                  - time [ref=e161]:
+                    - generic [ref=e162]: 
+                    - text: 09:35
+                  - link "Des hackers profitent de la fuite géante chez Anthropic pour piéger les curieux" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/hackers-profitent-fuite-geante-anthropic-pieger-developpeurs.html
+                - generic [ref=e165]:
+                  - time [ref=e166]:
+                    - generic [ref=e167]: 
+                    - text: 09:17
+                  - link "Le forfait Google AI Pro passe de 2 à 5 To de stockage, pour le même prix" [ref=e169] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/abonnes-google-ai-pro-gagnent-enorme-boost-stockage-sans-payer-plus.html
+                - generic [ref=e170]:
+                  - time [ref=e171]:
+                    - generic [ref=e172]: 
+                    - text: 09:01
+                  - link "Nvidia s’attaque enfin à l’écran de chargement qui exaspère les joueurs PC" [ref=e174] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/nvidia-sattaque-enfin-a-lecran-de-chargement-qui-exaspere-les-joueurs-pc.html
+                - generic [ref=e175]:
+                  - time [ref=e176]:
+                    - generic [ref=e177]: 
+                    - text: 08:54
+                  - 'link "Test iPad Air M4 13 pouces (2026) : presque aussi bien que l’iPad Pro ?" [ref=e179] [cursor=pointer]':
+                    - /url: https://www.01net.com/tests/test-ipad-air-m4-13-pouces-2026-avis.html
+                - generic [ref=e180]:
+                  - time [ref=e181]:
+                    - generic [ref=e182]: 
+                    - text: 08:45
+                  - 'link "Windows 11 : Microsoft indique enfin si vos certificats Secure Boot sont à jour" [ref=e184] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/windows-11-microsoft-indique-enfin-si-vos-certificats-secure-boot-sont-a-jour.html
+                - generic [ref=e185]:
+                  - time [ref=e186]:
+                    - generic [ref=e187]: 
+                    - text: 08:30
+                  - 'link "Mercedes supprime la colonne de direction : voici le volant « Steer-by-wire » de l’EQS restylée" [ref=e189] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/mercedes-supprime-colonne-direction-voici-volant-steer-by-wire-leqs-restylee.html
+                - generic [ref=e190]:
+                  - time [ref=e191]:
+                    - generic [ref=e192]: 
+                    - text: 08:02
+                  - 'link "Google Vids : l’outil gratuit de création vidéo en un clic reçoit une énorme mise à jour" [ref=e194] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/google-vids-outil-gratuit-creation-video-un-clic-recoit-enorme-mise-a-jour.html
+                - generic [ref=e195]:
+                  - time [ref=e196]:
+                    - generic [ref=e197]: 
+                    - text: 08:02
+                  - link "Chrome adopte une technologie attendue depuis des années" [ref=e199] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/google-chrome-fini-gaspillage-changement-ameliorer-autonomie-pc.html
+                - generic [ref=e200]:
+                  - time [ref=e201]:
+                    - generic [ref=e202]: 
+                    - text: 07:57
+                  - 'link "Tesla : 50 000 voitures neuves s’entassent sur les parkings, un record historique d’invendus" [ref=e204] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/tesla-dans-tourmente-50-000-voitures-sur-parkings-record-historique-dinvendus.html
+                - generic [ref=e205]:
+                  - time [ref=e206]:
+                    - generic [ref=e207]: 
+                    - text: 07:31
+                  - 'link "Hyundai en a marre des courbes : les nouvelles voitures électriques auront un look de l’espace" [ref=e209] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/hyundai-change-tout-fini-courbes-voici-futurs-modeles-electriques-spatial.html
+                - generic [ref=e210]:
+                  - time [ref=e211]:
+                    - generic [ref=e212]: 
+                    - text: 02/04
+                  - link "Sur la banquise du Groenland, cet avion français réussit ce que les appareils américains ne font qu’avec des skis" [ref=e214] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/sur-la-banquise-du-groenland-cet-avion-francais-reussit-ce-que-les-appareils-americains-ne-font-quavec-des-skis.html
+                - generic [ref=e215]:
+                  - time [ref=e216]:
+                    - generic [ref=e217]: 
+                    - text: 02/04
+                  - 'link "ChatGPT sur Apple CarPlay : voilà ce qu’il peut (et ne peut pas) faire dans votre voiture" [ref=e219] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/chatgpt-apple-carplay-voila-peut-pas-faire-voiture.html
+                - generic [ref=e220]:
+                  - time [ref=e221]:
+                    - generic [ref=e222]: 
+                    - text: 02/04
+                  - 'link "Honor 600 Lite : un smartphone milieu de gamme avec une batterie digne des plus grands ?" [ref=e224] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/honor-600-lite-un-smartphone-milieu-de-gamme-avec-une-batterie-digne-des-plus-grands.html
+                - generic [ref=e225]:
+                  - time [ref=e226]:
+                    - generic [ref=e227]: 
+                    - text: 02/04
+                  - 'link "Windows 11 : jaloux de Chrome, Microsoft Edge pourrait bientôt plomber votre PC" [ref=e229] [cursor=pointer]':
+                    - /url: https://www.01net.com/actualites/windows-11-jaloux-de-chrome-microsoft-edge-pourrait-bientot-plomber-votre-pc.html
+                - generic [ref=e230]:
+                  - time [ref=e231]:
+                    - generic [ref=e232]: 
+                    - text: 02/04
+                  - link "Le français OVHCloud veut héberger les données estampillées secret défense des armées européennes" [ref=e234] [cursor=pointer]:
+                    - /url: https://www.01net.com/actualites/le-francais-ovhcloud-veut-heberger-les-donnees-estampillees-secret-defense-des-armees-europeennes.html
+                - link "Toute l'actualité " [ref=e237] [cursor=pointer]:
+                  - /url: /actualites/
+                  - text: Toute l'actualité
+                  - generic [ref=e238]: 
+            - link "Le Galaxy S26 a un gros problème d’autonomie, on vous explique" [ref=e239] [cursor=pointer]:
+              - /url: https://www.01net.com/actualites/le-galaxy-s26-a-un-gros-probleme-dautonomie-on-vous-explique.html
+              - figure [ref=e240]:
+                - img "Test Samsung Galaxy S26 Avis Design" [ref=e241]
+              - generic [ref=e242]: Le Galaxy S26 a un gros problème d’autonomie, on vous explique
+            - 'link "Mission Artemis II : la fusée de la NASA a décollé vers la Lune" [ref=e243] [cursor=pointer]':
+              - /url: https://www.01net.com/actualites/mission-artemis-ii-la-fusee-de-la-nasa-a-decolle-vers-la-lune.html
+              - figure [ref=e244]:
+                - img "Nasa Lancement Artemis 2" [ref=e245]
+              - generic [ref=e246]: "Mission Artemis II : la fusée de la NASA a décollé vers la Lune"
+            - link "TEST J’ai testé l’iPhone 17e et la comparaison avec Android fait mal Titouan Gourlin" [ref=e247] [cursor=pointer]:
+              - /url: https://www.01net.com/tests/test-iphone-17e-avis-smartphone.html
+              - figure [ref=e248]:
+                - img "Test Apple iPhone 17e Dos 01net" [ref=e249]
+              - generic [ref=e250]:
+                - generic [ref=e251]: TEST
+                - generic [ref=e252]: J’ai testé l’iPhone 17e et la comparaison avec Android fait mal
+                - generic [ref=e253]: Titouan Gourlin
+            - generic [ref=e255]:
+              - heading "Bons plans" [level=2] [ref=e256]:
+                - link "Bons plans" [ref=e257] [cursor=pointer]:
+                  - /url: /bons-plans/
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - time [ref=e260]:
+                    - generic [ref=e261]: 
+                    - text: 11:55
+                  - 'link "DJI Osmo Pocket 3 : les créateurs de contenu en raffolent, à ce prix record, elle cartonne (-45%) 🔥" [ref=e263] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/dji-osmo-pocket-3-les-createurs-de-contenu-en-raffolent-a-ce-prix-record-elle-cartonne-45.html
+                - generic [ref=e264]:
+                  - time [ref=e265]:
+                    - generic [ref=e266]: 
+                    - text: 09:36
+                  - 'link "Magcubic HY350 Max : oubliez votre TV, ce vidéoprojecteur pas cher est une pépite (-60%)" [ref=e268] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/magcubic-hy350-max-oubliez-votre-tv-ce-videoprojecteur-pas-cher-est-une-pepite-60.html
+                - generic [ref=e269]:
+                  - time [ref=e270]:
+                    - generic [ref=e271]: 
+                    - text: 08:51
+                  - link "Erreur de prix ? Non, le Honor Magic V2 est bien dispo à -75% (16 unités en stock) ⚡️" [ref=e273] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/erreur-de-prix-non-le-honor-magic-v2-est-bien-dispo-a-75-16-unites-en-stock.html
+                - generic [ref=e274]:
+                  - time [ref=e275]:
+                    - generic [ref=e276]: 
+                    - text: 08:48
+                  - link "Erreur de prix ou non, le PC gaming MSI Crosshair voit son prix s’effondrer sur le site de la FNAC" [ref=e278] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/erreur-de-prix-ou-non-le-pc-gaming-msi-crosshair-voit-son-prix-seffondrer-sur-le-site-de-la-fnac.html
+                - generic [ref=e279]:
+                  - time [ref=e280]:
+                    - generic [ref=e281]: 
+                    - text: 02/04
+                  - link "Le Honor Magic 7 Pro est à un prix tellement bas qu’il s’écoule par camions (-55%) 🚛" [ref=e283] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/le-honor-magic-7-pro-est-a-un-prix-tellement-bas-quil-secoule-par-camions-55.html
+                - generic [ref=e284]:
+                  - time [ref=e285]:
+                    - generic [ref=e286]: 
+                    - text: 02/04
+                  - link "À 2,99 €/mois, NordVPN vous alerte si vos données traînent sur le Dark Web" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/a-299-e-mois-nordvpn-vous-alerte-si-vos-donnees-trainent-sur-le-dark-web.html
+                - generic [ref=e289]:
+                  - time [ref=e290]:
+                    - generic [ref=e291]: 
+                    - text: 02/04
+                  - 'link "Samsung dégaine un prix FOU sur le Galaxy A56 : à -48% il se vend par palettes 🔥" [ref=e293] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/samsung-degaine-un-prix-fou-sur-le-galaxy-a56-a-48-il-se-vend-par-palettes.html
+                - generic [ref=e294]:
+                  - time [ref=e295]:
+                    - generic [ref=e296]: 
+                    - text: 02/04
+                  - link "Les graveurs laser Mecpow à prix cassé sur Geekbuying" [ref=e298] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/les-graveurs-laser-mecpow-a-prix-casse-sur-geekbuying.html
+                - generic [ref=e299]:
+                  - time [ref=e300]:
+                    - generic [ref=e301]: 
+                    - text: 02/04
+                  - 'link "Week-ends prolongés : Ulys a LE bon plan pour éviter les embouteillages" [ref=e303] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/week-ends-prolonges-ulys-a-le-bon-plan-pour-eviter-les-embouteillages.html
+                - generic [ref=e304]:
+                  - time [ref=e305]:
+                    - generic [ref=e306]: 
+                    - text: 02/04
+                  - 'link "Meta Quest 3 : à ce prix jamais vu, c’est le meilleur moment pour passer à la VR 🚀" [ref=e308] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/meta-quest-3-a-ce-prix-jamais-vu-cest-le-meilleur-moment-pour-passer-a-la-vr.html
+                - generic [ref=e309]:
+                  - time [ref=e310]:
+                    - generic [ref=e311]: 
+                    - text: 02/04
+                  - 'link "Pixel 10 : à ce prix record, le smartphone de Google surclasse ses rivaux (-40%)" [ref=e313] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/pixel-10-le-meilleur-photophone-android-du-marche-perd-40-google-laisse-tomber-sa-marge.html
+                - generic [ref=e314]:
+                  - time [ref=e315]:
+                    - generic [ref=e316]: 
+                    - text: 02/04
+                  - 'link "Garmin Forerunner 265 : son prix vient de toucher le fond ce jeudi (-46%)" [ref=e318] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/garmin-forerunner-265-son-prix-vient-de-toucher-le-fond-ce-jeudi-46.html
+                - generic [ref=e319]:
+                  - time [ref=e320]:
+                    - generic [ref=e321]: 
+                    - text: 01/04
+                  - link "Si l’AMD Ryzen 7 7800X3D vous tente, il est aujourd’hui à un prix impossible à refuser" [ref=e323] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/si-lamd-ryzen-7-7800x3d-vous-tente-il-est-aujourdhui-a-un-prix-impossible-a-refuser.html
+                - generic [ref=e324]:
+                  - time [ref=e325]:
+                    - generic [ref=e326]: 
+                    - text: 01/04
+                  - 'link "Le prix du OnePlus 15 prend cher : -40% pour les plus rapides ce mercredi ⚡️" [ref=e328] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/le-prix-du-oneplus-15-prend-cher-40-pour-les-plus-rapides-ce-mercredi.html
+                - generic [ref=e329]:
+                  - time [ref=e330]:
+                    - generic [ref=e331]: 
+                    - text: 01/04
+                  - 'link "Garmin a validé ce deal : la Forerunner 255 se vend pour la moitié de son prix" [ref=e333] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/garmin-a-valide-ce-deal-la-forerunner-255-se-vend-pour-la-moitie-de-son-prix.html
+                - generic [ref=e334]:
+                  - time [ref=e335]:
+                    - generic [ref=e336]: 
+                    - text: 01/04
+                  - 'link "Insta360 X5 : la caméra d’action 8K s’écroule à -45%, le stock part à toute vitesse ⚡️" [ref=e338] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/insta360-x5-la-camera-daction-8k-secroule-a-45-le-stock-part-a-toute-vitesse.html
+                - generic [ref=e339]:
+                  - time [ref=e340]:
+                    - generic [ref=e341]: 
+                    - text: 01/04
+                  - 'link "Redmi Note 15 Pro : à moins de 200€ la pépite de Xiaomi se vend par camions, une première" [ref=e343] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/redmi-note-15-pro-a-moins-de-200e-la-pepite-de-xiaomi-se-vend-par-camions-une-premiere.html
+                - generic [ref=e344]:
+                  - time [ref=e345]:
+                    - generic [ref=e346]: 
+                    - text: 01/04
+                  - link "En roue libre, AMD sort un prix à la casse sur son processeur gaming Ryzen 7 9800X3D 😱" [ref=e348] [cursor=pointer]:
+                    - /url: https://www.01net.com/bons-plans/en-roue-libre-amd-sort-un-prix-a-la-casse-sur-son-processeur-gaming-ryzen-7-9800x3d.html
+                - generic [ref=e349]:
+                  - time [ref=e350]:
+                    - generic [ref=e351]: 
+                    - text: 01/04
+                  - 'link "Pad 7 : Xiaomi sacrifie le stock et vend sa tablette en version 256 Go à -50%" [ref=e353] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/pad-7-xiaomi-sacrifie-le-stock-et-vend-sa-tablette-en-version-256-go-a-50.html
+                - generic [ref=e354]:
+                  - time [ref=e355]:
+                    - generic [ref=e356]: 
+                    - text: 01/04
+                  - 'link "Sector Alarm : la solution idéale pour sécuriser votre maison en 2026" [ref=e358] [cursor=pointer]':
+                    - /url: https://www.01net.com/bons-plans/sector-alarm-la-solution-ideale-pour-securiser-votre-maison-en-2026.html
+                - link "Tous les bons plans " [ref=e361] [cursor=pointer]:
+                  - /url: /bons-plans/
+                  - text: Tous les bons plans
+                  - generic [ref=e362]: 
+            - 'link "Partenaire Windows 11 Pro et Microsoft Office à prix cassé : les offres de printemps à ne pas manquer" [ref=e363] [cursor=pointer]':
+              - /url: https://www.01net.com/bons-plans/windows-11-pro-et-microsoft-office-a-prix-casse-les-offres-de-printemps-a-ne-pas-manquer.html
+              - figure [ref=e364]:
+                - img "MMORC" [ref=e365]
+              - generic [ref=e366]: Partenaire
+              - generic [ref=e367]: "Windows 11 Pro et Microsoft Office à prix cassé : les offres de printemps à ne pas manquer"
+            - 'link "AirTag 2 : Apple déploie une mise à jour qui va faire du bruit" [ref=e368] [cursor=pointer]':
+              - /url: https://www.01net.com/actualites/airtag-2-apple-deploie-mise-jour-faire-bruit.html
+              - figure [ref=e369]:
+                - img "Airtag 2 Design Acier" [ref=e370]
+              - generic [ref=e371]: "AirTag 2 : Apple déploie une mise à jour qui va faire du bruit"
+            - 'link "TEST Test du Nothing Phone (4a) Pro : que de la gueule ? William Zimmer" [ref=e372] [cursor=pointer]':
+              - /url: https://www.01net.com/tests/test-nothing-phone-4a-pro-avis-smartphones.html
+              - figure [ref=e373]:
+                - img "Nothing (4a) Pro (2)" [ref=e374]
+              - generic [ref=e375]:
+                - generic [ref=e376]: TEST
+                - generic [ref=e377]: "Test du Nothing Phone (4a) Pro : que de la gueule ?"
+                - generic [ref=e378]: William Zimmer
+            - 'link "Windows 11 : comment convertir vos fichiers depuis le menu contextuel de l’Explorateur de fichiers ?" [ref=e379] [cursor=pointer]':
+              - /url: https://www.01net.com/astuces/windows-11-comment-convertir-vos-fichiers-depuis-le-menu-contextuel-de-lexplorateur-de-fichiers.html
+              - figure [ref=e380]:
+                - img "Explorateur Fichiers Windows 11" [ref=e381]
+              - generic [ref=e382]: "Windows 11 : comment convertir vos fichiers depuis le menu contextuel de l’Explorateur de fichiers ?"
+            - 'link "Alerte rouge sur l’iPhone : Apple déploie une mise à jour d’urgence sur certains smartphones" [ref=e383] [cursor=pointer]':
+              - /url: https://www.01net.com/actualites/apple-va-deployer-mise-jour-urgence-certains-iphone-etes-vous-concerne.html
+              - figure [ref=e384]:
+                - img "Ecran Accueil iPhone 15 Pro Max" [ref=e385]
+              - generic [ref=e386]: "Alerte rouge sur l’iPhone : Apple déploie une mise à jour d’urgence sur certains smartphones"
+          - link "Toute l'actualité " [ref=e388] [cursor=pointer]:
+            - /url: /actualites/
+            - text: Toute l'actualité
+            - generic [ref=e389]: 
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - figure [ref=e393]:
+                - img "Bons plans" [ref=e394]
+              - link "Tous les bons plans high-tech " [ref=e395] [cursor=pointer]:
+                - /url: /bons-plans/
+                - text: Tous les bons plans high-tech
+                - generic [ref=e396]: 
+            - 'link "Bons plans DJI Osmo Pocket 3 : les créateurs de contenu en raffolent, à ce prix record, elle cartonne (-45%) 🔥" [ref=e397] [cursor=pointer]':
+              - /url: https://www.01net.com/bons-plans/dji-osmo-pocket-3-les-createurs-de-contenu-en-raffolent-a-ce-prix-record-elle-cartonne-45.html
+              - figure [ref=e398]:
+                - img "Dji Osmo Pocket 3 Mini Caméra" [ref=e399]
+              - generic [ref=e400]: Bons plans
+              - generic [ref=e401]: "DJI Osmo Pocket 3 : les créateurs de contenu en raffolent, à ce prix record, elle cartonne (-45%) 🔥"
+            - 'link "Bons plans Magcubic HY350 Max : oubliez votre TV, ce vidéoprojecteur pas cher est une pépite (-60%)" [ref=e402] [cursor=pointer]':
+              - /url: https://www.01net.com/bons-plans/magcubic-hy350-max-oubliez-votre-tv-ce-videoprojecteur-pas-cher-est-une-pepite-60.html
+              - figure [ref=e403]:
+                - img "Magcubic HY350 Max" [ref=e404]
+              - generic [ref=e405]: Bons plans
+              - generic [ref=e406]: "Magcubic HY350 Max : oubliez votre TV, ce vidéoprojecteur pas cher est une pépite (-60%)"
+            - link "Bons plans Erreur de prix ? Non, le Honor Magic V2 est bien dispo à -75% (16 unités en stock) ⚡️" [ref=e407] [cursor=pointer]:
+              - /url: https://www.01net.com/bons-plans/erreur-de-prix-non-le-honor-magic-v2-est-bien-dispo-a-75-16-unites-en-stock.html
+              - figure [ref=e408]:
+                - img "Honor Magic V2" [ref=e409]
+              - generic [ref=e410]: Bons plans
+              - generic [ref=e411]: Erreur de prix ? Non, le Honor Magic V2 est bien dispo à -75% (16 unités en stock) ⚡️
+            - link "Bons plans Erreur de prix ou non, le PC gaming MSI Crosshair voit son prix s’effondrer sur le site de la FNAC" [ref=e412] [cursor=pointer]:
+              - /url: https://www.01net.com/bons-plans/erreur-de-prix-ou-non-le-pc-gaming-msi-crosshair-voit-son-prix-seffondrer-sur-le-site-de-la-fnac.html
+              - figure [ref=e413]:
+                - img "Msi Crosshair" [ref=e414]
+              - generic [ref=e415]: Bons plans
+              - generic [ref=e416]: Erreur de prix ou non, le PC gaming MSI Crosshair voit son prix s’effondrer sur le site de la FNAC
+          - generic [ref=e418]: Les sélections 01net.com
+          - generic [ref=e419]: Les guides d'achat
+          - generic [ref=e420]:
+            - article [ref=e421]:
+              - figure [ref=e422]:
+                - img "Cadeaux Noel Sapin" [ref=e423]
+              - 'link "Noël 2025 : 15 idées de cadeaux high-tech à moins de 100 €" [ref=e425] [cursor=pointer]':
+                - /url: https://www.01net.com/guide-achat/noel-2025-les-15-meilleures-idees-cadeaux-high-tech-a-moins-de-100-e.html
+            - article [ref=e426]:
+              - figure [ref=e427]:
+                - img "Meilleur Aspirateur Robot Laveur Roborock Saros Z70" [ref=e428]
+              - link "Les meilleurs robots aspirateurs laveurs en avril 2026" [ref=e430] [cursor=pointer]:
+                - /url: https://www.01net.com/guide-achat/meilleurs-robots-aspirateurs-laveurs.html
+            - article [ref=e431]:
+              - figure [ref=e432]:
+                - img "Samsugn Galaxy A17 5g" [ref=e433]
+              - link "Les meilleurs smartphones à moins de 200 euros en avril 2026" [ref=e435] [cursor=pointer]:
+                - /url: https://www.01net.com/guide-achat/le-top-10-des-smartphones-4g-a-moins-de-200-euros-1028395.html
+            - article [ref=e436]:
+              - figure [ref=e437]:
+                - img "Meilleure Montre Connectee Sport" [ref=e438]
+              - link "Les meilleures montres connectées pour le sport en avril 2026" [ref=e440] [cursor=pointer]:
+                - /url: https://www.01net.com/guide-achat/meilleure-montre-connectee-sport.html
+            - article [ref=e441]:
+              - figure [ref=e442]:
+                - img "meilleure caméra espion" [ref=e443]
+              - 'link "Guide : comment bien choisir sa caméra de surveillance en 2026 ?" [ref=e445] [cursor=pointer]':
+                - /url: https://www.01net.com/actualites/guide-d-achat-comment-bien-choisir-sa-camera-de-surveillance-1706064.html
+            - article [ref=e446]:
+              - figure [ref=e447]:
+                - img "Meilleure Console Portable" [ref=e448]
+              - link "Les meilleures consoles portables pour jouer en avril 2026" [ref=e450] [cursor=pointer]:
+                - /url: https://www.01net.com/guide-achat/meilleures-consoles-portables.html
+          - link "Tous les guides d'achat " [ref=e452] [cursor=pointer]:
+            - /url: /guide-achat/
+            - text: Tous les guides d'achat
+            - generic [ref=e453]: 
+          - generic [ref=e455]: En direct de Telecharger.com
+          - generic [ref=e456]:
+            - heading "Nouveaux logiciels" [level=2] [ref=e457]
+            - generic [ref=e458]:
+              - 'link "Darwin’s Paradox Darwin’s Paradox Par : Konami" [ref=e459] [cursor=pointer]':
+                - /url: /telecharger/jeux/jeux_aventure/darwins-paradox.html
+                - generic [ref=e460]:
+                  - img "Darwin’s Paradox" [ref=e461]
+                  - generic [ref=e462]:
+                    - heading "Darwin’s Paradox" [level=3] [ref=e463]
+                    - generic [ref=e464]: "Par : Konami"
+              - 'link "CookieRun : OvenSmash CookieRun : OvenSmash Par : Devsisters" [ref=e465] [cursor=pointer]':
+                - /url: /telecharger/jeux/action/cookierun-ovensmash.html
+                - generic [ref=e466]:
+                  - 'img "CookieRun : OvenSmash" [ref=e467]'
+                  - generic [ref=e468]:
+                    - 'heading "CookieRun : OvenSmash" [level=3] [ref=e469]'
+                    - generic [ref=e470]: "Par : Devsisters"
+              - link "Mega Man Star Force Legacy Collection Mega Man Star Force Legacy Collection" [ref=e471] [cursor=pointer]:
+                - /url: /telecharger/jeux/jeux_de_roles/mega-man-star-force-legacy-collection.html
+                - generic [ref=e472]:
+                  - img "Mega Man Star Force Legacy Collection" [ref=e473]
+                  - heading "Mega Man Star Force Legacy Collection" [level=3] [ref=e475]
+              - 'link "Crimson Desert Crimson Desert Par : Pearl Abyss Corp." [ref=e476] [cursor=pointer]':
+                - /url: /telecharger/jeux/jeux_aventure/crimson-desert.html
+                - generic [ref=e477]:
+                  - img "Crimson Desert" [ref=e478]
+                  - generic [ref=e479]:
+                    - heading "Crimson Desert" [level=3] [ref=e480]
+                    - generic [ref=e481]: "Par : Pearl Abyss Corp."
+              - link "AppControl AppControl" [ref=e482] [cursor=pointer]:
+                - /url: /telecharger/utilitaire/horloges_et_lanceurs/appcontrol.html
+                - generic [ref=e483]:
+                  - img "AppControl" [ref=e484]
+                  - heading "AppControl" [level=3] [ref=e486]
+              - link "Mailfence - Email sécurisé Mailfence - Email sécurisé" [ref=e487] [cursor=pointer]:
+                - /url: /telecharger/communication-et-mobiles/messagerie-instantanee-webmail/mailfence-email-securise.html
+                - generic [ref=e488]:
+                  - img "Mailfence - Email sécurisé" [ref=e489]
+                  - heading "Mailfence - Email sécurisé" [level=3] [ref=e491]
+              - 'link "Koofr : The Cloud Storage Koofr : The Cloud Storage" [ref=e492] [cursor=pointer]':
+                - /url: /telecharger/stockage-et-partage/banque-et-sauvegarde-de-donnees/koofr-the-cloud-storage.html
+                - generic [ref=e493]:
+                  - 'img "Koofr : The Cloud Storage" [ref=e494]'
+                  - 'heading "Koofr : The Cloud Storage" [level=3] [ref=e496]'
+              - 'link "AirDroid Parental Control AirDroid Parental Control Par : Sand Studio" [ref=e497] [cursor=pointer]':
+                - /url: /telecharger/securite/controle-parental/airdroid-parental-control.html
+                - generic [ref=e498]:
+                  - img "AirDroid Parental Control" [ref=e499]
+                  - generic [ref=e500]:
+                    - heading "AirDroid Parental Control" [level=3] [ref=e501]
+                    - generic [ref=e502]: "Par : Sand Studio"
+            - link "Tous les logiciels " [ref=e504] [cursor=pointer]:
+              - /url: /telecharger/
+              - text: Tous les logiciels
+              - generic [ref=e505]: 
+          - generic [ref=e506]:
+            - heading "Logiciels à découvrir" [level=2] [ref=e507]
+            - generic [ref=e508]:
+              - 'link "EdrawMax (Edraw FlowChart Software) EdrawMax (Edraw FlowChart Software) Par : EDrawSoft" [ref=e509] [cursor=pointer]':
+                - /url: /telecharger/multimedia/cao_et_dao/edraw-max.html
+                - generic [ref=e510]:
+                  - img "EdrawMax (Edraw FlowChart Software)" [ref=e511]
+                  - generic [ref=e512]:
+                    - heading "EdrawMax (Edraw FlowChart Software)" [level=3] [ref=e513]
+                    - generic [ref=e514]: "Par : EDrawSoft"
+              - 'link "Wondershare UniConverter Wondershare UniConverter Par : Wondershare" [ref=e515] [cursor=pointer]':
+                - /url: /telecharger/multimedia/edition_video/wondershare-uniconverter.html
+                - generic [ref=e516]:
+                  - img "Wondershare UniConverter" [ref=e517]
+                  - generic [ref=e518]:
+                    - heading "Wondershare UniConverter" [level=3] [ref=e519]
+                    - generic [ref=e520]: "Par : Wondershare"
+              - 'link "Wondershare Video to iPod Converter for Mac Par : Wondershare" [ref=e521] [cursor=pointer]':
+                - /url: /telecharger/multimedia/video/wondershare-video-to-ipod-converter-for-mac.html
+                - generic [ref=e523]:
+                  - heading "Wondershare Video to iPod Converter for Mac" [level=3] [ref=e524]
+                  - generic [ref=e525]: "Par : Wondershare"
+              - 'link "Wondershare PPT2Flash Professional Par : Wondershare" [ref=e526] [cursor=pointer]':
+                - /url: /telecharger/bureautique/presentation/wondershare-ppt2flash-professional.html
+                - generic [ref=e528]:
+                  - heading "Wondershare PPT2Flash Professional" [level=3] [ref=e529]
+                  - generic [ref=e530]: "Par : Wondershare"
+              - 'link "Wondershare DVD to iPhone Converter for Mac Par : Wondershare" [ref=e531] [cursor=pointer]':
+                - /url: /telecharger/multimedia/video/wondershare-dvd-to-iphone-converter-for-mac.html
+                - generic [ref=e533]:
+                  - heading "Wondershare DVD to iPhone Converter for Mac" [level=3] [ref=e534]
+                  - generic [ref=e535]: "Par : Wondershare"
+              - 'link "Wondershare Video to PSP for Mac Par : Wondershare" [ref=e536] [cursor=pointer]':
+                - /url: /telecharger/multimedia/video/wondershare-video-to-psp-for-mac.html
+                - generic [ref=e538]:
+                  - heading "Wondershare Video to PSP for Mac" [level=3] [ref=e539]
+                  - generic [ref=e540]: "Par : Wondershare"
+              - 'link "Wondershare DVD to Mobile Phone Converter for Mac Par : Wondershare" [ref=e541] [cursor=pointer]':
+                - /url: /telecharger/multimedia/video/wondershare-dvd-to-mobile-phone-converter-for-mac.html
+                - generic [ref=e543]:
+                  - heading "Wondershare DVD to Mobile Phone Converter for Mac" [level=3] [ref=e544]
+                  - generic [ref=e545]: "Par : Wondershare"
+              - link "DVD to AppleTV Ripper" [ref=e546] [cursor=pointer]:
+                - /url: /telecharger/multimedia/encodeurs_et_decodeurs/dvd-to-appletv-ripper.html
+                - heading "DVD to AppleTV Ripper" [level=3] [ref=e549]
+            - link "Tous les logiciels " [ref=e551] [cursor=pointer]:
+              - /url: /telecharger/
+              - text: Tous les logiciels
+              - generic [ref=e552]: 
+          - generic [ref=e553]:
+            - heading "Top téléchargement" [level=2] [ref=e554]
+            - generic [ref=e555]:
+              - 'link "Google Play Store Google Play Store Par : Google" [ref=e556] [cursor=pointer]':
+                - /url: /telecharger/utilitaires/google-play-store.html
+                - generic [ref=e557]:
+                  - img "Google Play Store" [ref=e558]
+                  - generic [ref=e559]:
+                    - heading "Google Play Store" [level=3] [ref=e560]
+                    - generic [ref=e561]: "Par : Google"
+              - 'link "4K Video Downloader Plus 4K Video Downloader Plus Par : 4kdownload.com" [ref=e562] [cursor=pointer]':
+                - /url: /telecharger/multimedia/outils_internet/4k-video-downloader.html
+                - generic [ref=e563]:
+                  - img "4K Video Downloader Plus" [ref=e564]
+                  - generic [ref=e565]:
+                    - heading "4K Video Downloader Plus" [level=3] [ref=e566]
+                    - generic [ref=e567]: "Par : 4kdownload.com"
+              - 'link "VLC media player VLC Media Player Par : VideoLAN" [ref=e568] [cursor=pointer]':
+                - /url: /telecharger/multimedia/lecteurs_video_dvd/vlc-media-player.html
+                - generic [ref=e569]:
+                  - img "VLC media player" [ref=e570]
+                  - generic [ref=e571]:
+                    - heading "VLC Media Player" [level=3] [ref=e572]
+                    - generic [ref=e573]: "Par : VideoLAN"
+              - 'link "WhatsApp Messenger WhatsApp Par : Meta" [ref=e574] [cursor=pointer]':
+                - /url: /telecharger/internet/whatsapp-messenger.html
+                - generic [ref=e575]:
+                  - img "WhatsApp Messenger" [ref=e576]
+                  - generic [ref=e577]:
+                    - heading "WhatsApp" [level=3] [ref=e578]
+                    - generic [ref=e579]: "Par : Meta"
+              - 'link "Adobe Acrobat Reader DC (Adobe Reader) Adobe Reader Par : Adobe" [ref=e580] [cursor=pointer]':
+                - /url: /telecharger/bureautique/editeur_de_texte/adobe-acrobat-reader-dc-adobe-reader.html
+                - generic [ref=e581]:
+                  - img "Adobe Acrobat Reader DC (Adobe Reader)" [ref=e582]
+                  - generic [ref=e583]:
+                    - heading "Adobe Reader" [level=3] [ref=e584]
+                    - generic [ref=e585]: "Par : Adobe"
+              - 'link "uTorrent (µTorrent) uTorrent Par : Ludvig Strigeus" [ref=e586] [cursor=pointer]':
+                - /url: /telecharger/internet/partage/utorrent.html
+                - generic [ref=e587]:
+                  - img "uTorrent (µTorrent)" [ref=e588]
+                  - generic [ref=e589]:
+                    - heading "uTorrent" [level=3] [ref=e590]
+                    - generic [ref=e591]: "Par : Ludvig Strigeus"
+              - 'link "WinRAR WinRAR Par : RARLAB" [ref=e592] [cursor=pointer]':
+                - /url: /telecharger/utilitaire/compression_et_decompression/winrar.html
+                - generic [ref=e593]:
+                  - img "WinRAR" [ref=e594]
+                  - generic [ref=e595]:
+                    - heading "WinRAR" [level=3] [ref=e596]
+                    - generic [ref=e597]: "Par : RARLAB"
+              - 'link "Xender Xender Par : Xender Team" [ref=e598] [cursor=pointer]':
+                - /url: /telecharger/utilitaire/gestion_de_fichier/xender.html
+                - generic [ref=e599]:
+                  - img "Xender" [ref=e600]
+                  - generic [ref=e601]:
+                    - heading "Xender" [level=3] [ref=e602]
+                    - generic [ref=e603]: "Par : Xender Team"
+              - 'link "Google Chrome Google Chrome Par : Google" [ref=e604] [cursor=pointer]':
+                - /url: /telecharger/internet/navigateur/google-chrome.html
+                - generic [ref=e605]:
+                  - img "Google Chrome" [ref=e606]
+                  - generic [ref=e607]:
+                    - heading "Google Chrome" [level=3] [ref=e608]
+                    - generic [ref=e609]: "Par : Google"
+              - 'link "CCleaner CCleaner Par : Piriform Ltd." [ref=e610] [cursor=pointer]':
+                - /url: /telecharger/utilitaire/nettoyeurs_et_installeurs/ccleaner.html
+                - generic [ref=e611]:
+                  - img "CCleaner" [ref=e612]
+                  - generic [ref=e613]:
+                    - heading "CCleaner" [level=3] [ref=e614]
+                    - generic [ref=e615]: "Par : Piriform Ltd."
+              - 'link "Mozilla Firefox Mozilla Firefox Par : Mozilla Foundation" [ref=e616] [cursor=pointer]':
+                - /url: /telecharger/internet/navigateur/mozilla-firefox.html
+                - generic [ref=e617]:
+                  - img "Mozilla Firefox" [ref=e618]
+                  - generic [ref=e619]:
+                    - heading "Mozilla Firefox" [level=3] [ref=e620]
+                    - generic [ref=e621]: "Par : Mozilla Foundation"
+              - 'link "Avast Antivirus Gratuit Avast Gratuit Par : Avast" [ref=e622] [cursor=pointer]':
+                - /url: /telecharger/securite/antivirus-antitrojan/avast-antivirus-gratuit.html
+                - generic [ref=e623]:
+                  - img "Avast Antivirus Gratuit" [ref=e624]
+                  - generic [ref=e625]:
+                    - heading "Avast Gratuit" [level=3] [ref=e626]
+                    - generic [ref=e627]: "Par : Avast"
+            - link "Tous les logiciels " [ref=e629] [cursor=pointer]:
+              - /url: /telecharger/
+              - text: Tous les logiciels
+              - generic [ref=e630]: 
+      - text:   
+    - contentinfo [ref=e634]:
+      - generic [ref=e636]:
+        - link "01net.com" [ref=e638] [cursor=pointer]:
+          - /url: https://www.01net.com
+          - img "01net.com" [ref=e639]
+        - list [ref=e640]:
+          - listitem [ref=e641]:
+            - link "Contact" [ref=e642] [cursor=pointer]:
+              - /url: /info/contact/
+          - listitem [ref=e643]:
+            - link "Flux RSS" [ref=e644] [cursor=pointer]:
+              - /url: /info/flux-rss/
+          - listitem [ref=e645]:
+            - link "Newsletters" [ref=e646] [cursor=pointer]:
+              - /url: /info/newsletters/
+          - listitem [ref=e647]:
+            - link "Mentions légales" [ref=e648] [cursor=pointer]:
+              - /url: /info/mentions-legales/
+          - listitem [ref=e649]:
+            - link "Cookies" [ref=e650] [cursor=pointer]:
+              - /url: /info/infos-cookies/
+          - listitem [ref=e651]:
+            - link "Politique de confidentialité" [ref=e652] [cursor=pointer]:
+              - /url: /info/donnees-personnelles/
+          - listitem [ref=e653]:
+            - link "Publicité" [ref=e654] [cursor=pointer]:
+              - /url: /info/publicite/
+          - listitem [ref=e655]:
+            - link "Kit média" [ref=e656] [cursor=pointer]:
+              - /url: https://www.01net.com/kit-media-keleops/
+      - list [ref=e660]:
+        - listitem [ref=e661]:
+          - link "Les sites du groupe :" [ref=e662] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e663]:
+          - link "01net" [ref=e664] [cursor=pointer]:
+            - /url: https://www.01net.com
+        - listitem [ref=e665]:
+          - link "Presse-citron" [ref=e666] [cursor=pointer]:
+            - /url: https://www.presse-citron.net
+        - listitem [ref=e667]:
+          - link "Journal du Geek" [ref=e668] [cursor=pointer]:
+            - /url: https://www.journaldugeek.com
+        - listitem [ref=e669]:
+          - link "iPhon" [ref=e670] [cursor=pointer]:
+            - /url: https://www.iphon.fr
+        - listitem [ref=e671]:
+          - link "Telecharger.com" [ref=e672] [cursor=pointer]:
+            - /url: https://www.01net.com/telecharger/
+    - generic:
+      - generic [ref=e673]:
+        - generic [ref=e675] [cursor=pointer]: 
+        - link "01net.com" [ref=e676] [cursor=pointer]:
+          - /url: /
+          - img "01net.com" [ref=e677]
+        - generic:
+          - list:
+            - listitem:
+              - link "Comparatif de VPN" [ref=e678] [cursor=pointer]:
+                - /url: https://www.01net.com/vpn/
+              - text: +
+            - listitem:
+              - link "Meilleur hébergeur" [ref=e679] [cursor=pointer]:
+                - /url: https://www.01net.com/hebergeur/
+              - text: +
+            - listitem:
+              - link "Plateforme crypto" [ref=e680] [cursor=pointer]:
+                - /url: https://www.01net.com/crypto/etoro/
+              - text: +
+            - listitem:
+              - link "Meilleur antivirus" [ref=e681] [cursor=pointer]:
+                - /url: https://www.01net.com/antivirus/
+              - text: +
+            - listitem:
+              - link "Télésurveillance" [ref=e682] [cursor=pointer]:
+                - /url: https://www.01net.com/alarme-maison/
+            - listitem:
+              - link "International" [ref=e683] [cursor=pointer]:
+                - /url: https://www.01net.com/es/
+              - text: +
+          - generic:
+            - paragraph: Mode
+            - generic:
+              - generic [ref=e684] [cursor=pointer]: 
+              - generic [ref=e685] [cursor=pointer]: 
+              - generic [ref=e686] [cursor=pointer]: 
+      - generic [ref=e687]:
+        - generic [ref=e689] [cursor=pointer]: 
+        - link "01net.com" [ref=e690] [cursor=pointer]:
+          - /url: /
+          - img "01net.com" [ref=e691]
+        - generic:
+          - list:
+            - listitem:
+              - link "Actu" [ref=e692] [cursor=pointer]:
+                - /url: https://www.01net.com/actualites/
+              - text: +
+            - listitem:
+              - link "Tests" [ref=e693] [cursor=pointer]:
+                - /url: https://www.01net.com/tests/
+              - text: +
+            - listitem:
+              - link "Astuces" [ref=e694] [cursor=pointer]:
+                - /url: https://www.01net.com/astuces/
+            - listitem:
+              - link "Télécharger" [ref=e695] [cursor=pointer]:
+                - /url: https://www.01net.com/telecharger/
+                - text: Télécharger
+                - img
+            - listitem:
+              - link "Bons Plans" [ref=e696] [cursor=pointer]:
+                - /url: https://www.01net.com/bons-plans/
+            - listitem:
+              - link "Maison connectée avec" [ref=e697] [cursor=pointer]:
+                - /url: https://www.01net.com/maison-connectee/
+                - text: Maison connectée
+                - generic [ref=e698]:
+                  - text: avec
+                  - img
+          - list:
+            - listitem:
+              - link "Voir plus" [ref=e699] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e700]: 
+              - text: +
+          - generic:
+            - paragraph: Mode
+            - generic:
+              - generic [ref=e701] [cursor=pointer]: 
+              - generic [ref=e702] [cursor=pointer]: 
+              - generic [ref=e703] [cursor=pointer]: 
+          - generic:
+            - paragraph: Suivez-nous
+            - list [ref=e704]:
+              - listitem [ref=e705]:
+                - link "" [ref=e706] [cursor=pointer]:
+                  - /url: https://fr-fr.facebook.com/01net
+                  - generic [ref=e707]: 
+              - listitem [ref=e708]:
+                - link "" [ref=e709] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC6joDErOGcFJC1vHNSfsYQg?sub_confirmation=1
+                  - generic [ref=e710]: 
+              - listitem [ref=e711]:
+                - link "" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.instagram.com/01net/?hl=fr
+                  - generic [ref=e713]: 
+              - listitem [ref=e714]:
+                - link "Bluesky" [ref=e715] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/01net.com
+                  - img [ref=e716]
+              - listitem [ref=e718]:
+                - link "" [ref=e719] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@01net.com?lang=fr
+                  - generic [ref=e720]: 
+      - generic:
+        - generic [ref=e722] [cursor=pointer]: 
+        - textbox "Recherche" [ref=e724]
+  - generic [ref=e730]:
+    - generic [ref=e731]:
+      - generic [ref=e732]:
+        - button "Continuer sans accepter" [ref=e735] [cursor=pointer]:
+          - generic [ref=e736]: Continuer sans accepter
+        - generic [ref=e737]: 01net
+      - generic [ref=e738]:
+        - generic [ref=e740]:
+          - text: Nos 264
+          - strong [ref=e741] [cursor=pointer]: partenaires
+          - text: et nous souhaitons stocker et accéder à des informations sur vos appareils (cookies, pixels, etc.), et collecter des données personnelles sur ce site afin de les traiter avec des informations futures ou déjà connues (identifiants, navigation, préférences, achats, adresses IP, postale et email, téléphone, géolocalisation précise, etc.).
+        - generic [ref=e743]: Cela permet de développer et vous proposer des services, contenus, offres commerciales et publicités sur vos différents appareils et écrans (y compris par email, courrier, SMS, téléphone, audio, et vidéo), de les personnaliser, d'en mesurer la performance, et d'étudier les audiences.
+        - generic [ref=e744]: Vous pouvez "tout accepter" et retirer votre consentement à tout moment via le lien "cookies" en bas de page, ou "continuer sans accepter" les traceurs et les activités comme la personnalisation. Vous pouvez aussi "paramétrer des choix" détaillés pour refuser les traitements plus limités. Vos choix sont valables pour 6 mois.
+      - link "powered by Sirdata" [ref=e747] [cursor=pointer]:
+        - /url: https://cmp.sirdata.com/
+        - generic [ref=e748]: powered by
+        - generic "Sirdata" [ref=e749]
+    - generic [ref=e751]:
+      - button "Paramétrer vos choix" [ref=e752] [cursor=pointer]:
+        - generic [ref=e753]: Paramétrer vos choix
+      - button "Tout accepter" [ref=e754] [cursor=pointer]:
+        - generic [ref=e755]: Tout accepter
