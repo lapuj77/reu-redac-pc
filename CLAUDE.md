@@ -16,7 +16,7 @@ The app runs on `http://localhost:8501`.
 
 ## Architecture
 
-Single-file Streamlit app (`dashboard.py`, ~1500 lines) for an editorial tracking dashboard for 01net/journaldugeek.com. Users upload a CSV export of articles and get interactive visualizations.
+Single-file Streamlit app (`dashboard.py`, ~1500 lines) for an editorial tracking dashboard for Presse-Citron (presse-citron.net). Users upload a CSV export of articles and get interactive visualizations.
 
 ### Data flow
 
@@ -32,7 +32,7 @@ CSV Upload → load_data() → auto_archive() → Tab rendering
 
 | Lines | Section |
 |-------|---------|
-| 18–224 | Streamlit page config + all CSS (01net brand, sidebar, custom components) |
+| 18–224 | Streamlit page config + all CSS (Presse-Citron brand, sidebar, custom components) |
 | 225–380 | Constants: `CATEGORIES`, `TYPE_LABELS`, `EXCLUDED_AUTHORS`, utility functions |
 | 382–463 | Data processing: `load_data()`, `week_dates()`, TMDB/RAWG API fetchers |
 | 465–618 | AI & external: `generate_article_ideas()` (Claude API), Google News RSS, annual events calendar |
@@ -60,7 +60,7 @@ Articles are auto-categorized by case-insensitive keyword matching against the `
 
 ### Styling
 
-All CSS is inline in `st.markdown()` at the top. Brand color: `#E8000D`. Thousands separator uses French narrow no-break space (` `). There's a multi-selector CSS workaround for sidebar buttons on Streamlit Cloud (lines 78–93).
+All CSS is inline in `st.markdown()` at the top. Brand color: `#00c853` (vert Presse-Citron officiel). Thousands separator uses French narrow no-break space (` `). There's a multi-selector CSS workaround for sidebar buttons on Streamlit Cloud (lines 78–93).
 
 ### External APIs
 

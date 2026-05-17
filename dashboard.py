@@ -28,14 +28,14 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-    --jdg:       #E8000D;
-    --jdg-dark:  #B50009;
-    --jdg-mid:   #FF3340;
-    --jdg-light: #FFF0F0;
-    --jdg-pale:  #FFF8F8;
-    --jdg-border:#FFCCCC;
+    --pc:       #00c853;
+    --pc-dark:  #009640;
+    --pc-mid:   #09de61;
+    --pc-light: #e6fff2;
+    --pc-pale:  #f0fff6;
+    --pc-border:#99e8be;
     --radius:    12px;
-    --shadow:    0 2px 12px rgba(232,0,13,.10);
+    --shadow:    0 2px 12px rgba(0,200,83,.10);
 }
 
 /* ── Police globale ── */
@@ -44,12 +44,12 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 }
 
 /* ── Fond ── */
-.main, [data-testid="stAppViewContainer"] { background: #F5F0F0 !important; }
+.main, [data-testid="stAppViewContainer"] { background: #F0FAF4 !important; }
 [data-testid="stAppViewContainer"] > .main { padding-top: 0 !important; }
 
 /* ── Sidebar ── */
 [data-testid="stSidebar"] {
-    background: linear-gradient(175deg, #6B0004 0%, #AA0009 60%, #CC000E 100%) !important;
+    background: linear-gradient(175deg, #003d1a 0%, #006b2e 60%, #009640 100%) !important;
     border-right: none !important;
 }
 [data-testid="stSidebar"] > div { padding-top: 1.5rem; }
@@ -80,7 +80,7 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 [data-testid="stSidebar"] [data-testid="stBaseButton-primary"] {
     background: #ffffff !important;
     background-color: #ffffff !important;
-    color: #B50009 !important; font-weight: 700 !important;
+    color: #006b2e !important; font-weight: 700 !important;
     border: 2px solid rgba(255,255,255,0.8) !important;
     border-radius: 8px !important;
     width: 100%; margin-top: .2rem;
@@ -88,8 +88,8 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 }
 [data-testid="stSidebar"] .stButton button:hover,
 [data-testid="stSidebar"] [data-testid="stBaseButton-secondary"]:hover {
-    background: #fff0f0 !important; background-color: #fff0f0 !important;
-    color: #8B0009 !important;
+    background: #e6fff2 !important; background-color: #e6fff2 !important;
+    color: #003d1a !important;
 }
 [data-testid="stSidebar"] .stButton button *,
 [data-testid="stSidebar"] .stButton button p,
@@ -97,7 +97,7 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 [data-testid="stSidebar"] .stButton button div,
 [data-testid="stSidebar"] [data-testid="stBaseButton-secondary"] *,
 [data-testid="stSidebar"] [data-testid="stBaseButton-secondary"] p {
-    color: #B50009 !important; font-weight: 700 !important;
+    color: #006b2e !important; font-weight: 700 !important;
     background: transparent !important; background-color: transparent !important;
 }
 /* Bouton "Browse files" du file uploader */
@@ -105,7 +105,7 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button span,
 [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button p {
     background: #fff !important;
-    color: #E8000D !important; font-weight: 600 !important;
+    color: #009640 !important; font-weight: 600 !important;
     border: 1px solid rgba(255,255,255,0.5) !important;
     border-radius: 6px !important;
 }
@@ -123,18 +123,18 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 
 /* ── Onglets ── */
 [data-testid="stTabs"] [data-baseweb="tab-list"] {
-    gap: 4px; background: var(--jdg-light);
-    border-radius: var(--radius); padding: 5px; border: 1px solid var(--jdg-border);
+    gap: 4px; background: var(--pc-light);
+    border-radius: var(--radius); padding: 5px; border: 1px solid var(--pc-border);
 }
 [data-testid="stTabs"] [data-baseweb="tab"] {
     border-radius: 9px !important; font-weight: 600 !important;
-    font-size: .9rem !important; color: var(--jdg) !important;
+    font-size: .9rem !important; color: var(--pc) !important;
     background: transparent !important; padding: .45rem 1rem !important;
     transition: all .15s;
 }
 [data-testid="stTabs"] [aria-selected="true"] {
-    background: var(--jdg) !important; color: #fff !important;
-    box-shadow: 0 2px 8px rgba(232,0,13,.3) !important;
+    background: var(--pc) !important; color: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,200,83,.3) !important;
 }
 
 /* ── Cartes KPI ── */
@@ -142,18 +142,18 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 .kpi-card {
     flex:1; min-width:140px;
     background:#fff; border-radius:var(--radius);
-    border: 1px solid var(--jdg-border);
+    border: 1px solid var(--pc-border);
     padding: 1.1rem 1.2rem .9rem;
     box-shadow: var(--shadow);
     position: relative; overflow: hidden;
 }
 .kpi-card::before {
     content:''; position:absolute; top:0; left:0; right:0; height:4px;
-    background: linear-gradient(90deg, var(--jdg-dark), var(--jdg-mid));
+    background: linear-gradient(90deg, var(--pc-dark), var(--pc-mid));
 }
 .kpi-icon { font-size:1.4rem; margin-bottom:.3rem; }
-.kpi-val  { font-size:1.65rem; font-weight:800; color:var(--jdg); line-height:1.1; }
-.kpi-lbl  { font-size:.72rem; font-weight:600; color:#8B0009; text-transform:uppercase; letter-spacing:.6px; margin-top:.25rem; }
+.kpi-val  { font-size:1.65rem; font-weight:800; color:var(--pc); line-height:1.1; }
+.kpi-lbl  { font-size:.72rem; font-weight:600; color:#006b2e; text-transform:uppercase; letter-spacing:.6px; margin-top:.25rem; }
 
 /* ── Cartes articles top/flop ── */
 .art-card {
@@ -167,44 +167,44 @@ html, body, [class*="css"], .stMarkdown, .stText, button, input, label, p, td, t
 .art-rank { font-weight:800; font-size:.8rem; min-width:52px; }
 .art-rank.top  { color:#16a34a; }
 .art-rank.flop { color:#dc2626; }
-.art-title { color:#1a0000; line-height:1.35; flex:1; }
+.art-title { color:#111; line-height:1.35; flex:1; }
 
 /* ── Titres de section ── */
-h3 { color: var(--jdg-dark) !important; font-weight:800 !important; }
-h4 { color: var(--jdg) !important; font-weight:700 !important; letter-spacing:-.2px; }
+h3 { color: var(--pc-dark) !important; font-weight:800 !important; }
+h4 { color: var(--pc) !important; font-weight:700 !important; letter-spacing:-.2px; }
 
 /* ── DataFrames ── */
 div[data-testid="stDataFrame"] {
     border-radius: var(--radius); overflow:hidden;
-    box-shadow: var(--shadow); border: 1px solid var(--jdg-border) !important;
+    box-shadow: var(--shadow); border: 1px solid var(--pc-border) !important;
 }
 
 /* ── Boutons principaux (hors sidebar) ── */
 .main .stButton > button, [data-testid="stAppViewContainer"] .stButton > button {
-    background: var(--jdg) !important; color: #fff !important;
+    background: var(--pc) !important; color: #fff !important;
     border: none !important; border-radius: 8px !important;
     font-weight: 600 !important; transition: background .15s !important;
 }
-.main .stButton > button:hover { background: var(--jdg-dark) !important; }
+.main .stButton > button:hover { background: var(--pc-dark) !important; }
 
 /* ── Alerts / infos ── */
 [data-testid="stAlert"] { border-radius: 10px !important; }
 
 /* ── Inputs ── */
 .stTextInput input, .stTextArea textarea {
-    border-radius: 8px !important; border-color: var(--jdg-border) !important;
+    border-radius: 8px !important; border-color: var(--pc-border) !important;
 }
 .stTextInput input:focus, .stTextArea textarea:focus {
-    border-color: var(--jdg) !important; box-shadow: 0 0 0 3px rgba(232,0,13,.12) !important;
+    border-color: var(--pc) !important; box-shadow: 0 0 0 3px rgba(0,200,83,.12) !important;
 }
 
 /* ── Expander ── */
-[data-testid="stExpander"] { border-radius: 10px !important; border: 1px solid var(--jdg-border) !important; }
+[data-testid="stExpander"] { border-radius: 10px !important; border: 1px solid var(--pc-border) !important; }
 
 /* ── Spinner ── */
-[data-testid="stSpinner"] > div { border-top-color: var(--jdg) !important; }
+[data-testid="stSpinner"] > div { border-top-color: var(--pc) !important; }
 
-hr { border-color: var(--jdg-border) !important; margin: 1rem 0 !important; }
+hr { border-color: var(--pc-border) !important; margin: 1rem 0 !important; }
 
 /* ── Masquer les éléments UI Streamlit inutiles ── */
 #MainMenu, footer, header { visibility: hidden !important; }
@@ -228,10 +228,7 @@ DROPBOX_PATH  = r"D:\Dropbox\PCW10\Download"
 ARCHIVE_DIR   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "archives")
 os.makedirs(ARCHIVE_DIR, exist_ok=True)
 
-EXCLUDED_AUTHORS = {
-    "Louise Millon", "Sebastian Danila", "Enzo Bonucci",
-    "Manon Carpentier", "Antoine Michaud", "Vincent Bouvier",
-}
+EXCLUDED_AUTHORS: set[str] = set()
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "config.json")
 
 
@@ -276,42 +273,53 @@ def save_config(data: dict):
 _config = load_config()
 
 CATEGORIES = {
-    "🎬 Pop Culture": [
-        "film", "série", "netflix", "anime", "one piece", "harry potter", "marvel",
-        "disney", "prime video", "streaming", "cinéma", "trailer", "bande-annonce",
-        "saison", "acteur", "live-action", "jojo", "avengers", "pixar", "thrash",
-        "disclosure", "man on fire", "raiponce", "rooster", "day one", "bass x",
-        "jumpers", "conan", "seigneur des anneaux", "malcolm",
+    "📱 Tech & Smartphones": [
+        "iphone", "apple", "samsung", "galaxy", "xiaomi", "honor", "pixel",
+        "oneplus", "oppo", "nothing phone", "smartphone", "android", "ios",
+        "mac", "macbook", "imac", "ordinateur", "pc ", "laptop", "tablette",
+        "ipad", "surface", "casque", "écouteurs", "airpods", "beats",
+        "processeur", "puce", "ssd", "gpu", "nvidia", "amd", "intel",
+        "windows", "5g", "esim", "apple watch", "galaxy watch",
     ],
-    "🎮 Jeux Vidéo": [
-        "xbox", "playstation", "steam", "nintendo", "switch", "jeu ", "jeux",
-        "pokémon", "pokemon", "fortnite", "mario", "gaming", "gamer", "ps5",
-        "fps", "rpg", "mmorpg", "bioshock", "overwatch", "game", "yoshi",
-        "pickmon", "pokopia", "resident evil", "life is strange", "blizzard",
-        "odyssey 3d", "steam machine", "tcg", "lego mario",
+    "🤖 IA & Logiciels": [
+        " ia ", "intelligence artificielle", "openai", "chatgpt", "gpt",
+        "gemini", "copilot", "mistral", "deepseek", "claude", "grok",
+        "perplexity", "llm", "machine learning", "génératif", "midjourney",
+        "logiciel", "application", "appli", "télécharger", "chrome",
+        "firefox", "windows update", "linux", "cloud", "cybersécurité",
+        "antivirus", "vpn", "hacker", "piratage", "faille",
     ],
-    "💻 Nouvelles Tech": [
-        "iphone", "apple", "samsung", "android", " ia ", "openai", "chatgpt",
-        "google", "microsoft", "windows", "mac", "macbook", "smartphone", "5g",
-        "puce", "processeur", "alexa", "siri", "grok", "meta ", "x money",
-        "oppo", "xiaomi", "nothing headphone", "dyson", "notion", "promptspy",
-        "rabbit ", "chrome", "android 16", "ssd", "nvidia", "amd", "photonique",
-        "leakbase", "macrohard", "moltbook",
+    "💰 Finance & Crypto": [
+        "banque", "banque en ligne", "crypto", "bitcoin", "ethereum",
+        "investissement", "bourse", "carte bancaire", "revolut", "n26",
+        "boursorama", "fortuneo", "fintech", "épargne", "assurance",
+        "prêt", "immobilier", "taux", "inflation", "impôt", "retraite",
+        "trading", "nft", "blockchain", "dfin", "livret", "crédit",
     ],
-    "🛒 Conso & Produits": [
-        "amazon", "cdiscount", "bon plan", "bonplan", "remise", "réduction",
-        "vente flash", "bouygues", "free ", "orange ", "sfr", "abonnement",
-        "forfait", "lego", "fnac", "darty", "boulanger", "airpods", "galaxy buds",
-        "navigo", "shein", "carburant", "essence", "voiture électrique", "tesla",
-        "renault", "byd", "denza", "zendure", "shokz", "ninja foodi", "ecoflow",
-        "sihoo", "iptv", "mondial relay", "canal+", "panneaux solaires",
+    "🚗 Auto & Mobilité": [
+        "voiture", "tesla", "bmw", "renault", "peugeot", "volkswagen",
+        "toyota", "citroën", "byd", "électrique", "hybride", "véhicule",
+        "batterie", "borne de recharge", "recharge", "vélo électrique",
+        "trottinette", "uber", "blablacar", "permis", "gps", "autoroute",
+    ],
+    "⚡ Énergie": [
+        "panneaux solaires", "éolienne", "nucléaire", "électricité",
+        "facture d'énergie", "edf", "engie", "batterie domestique",
+        "transition énergétique", "renouvelable", "photovoltaïque",
+        "consommation électrique", "pompe à chaleur", "isolation",
+    ],
+    "🎬 Ciné & Séries": [
+        "film", "série", "netflix", "disney", "prime video", "apple tv",
+        "max ", "canal+", "streaming", "cinéma", "critique", "saison",
+        "trailer", "bande-annonce", "acteur", "réalisateur", "marvel",
+        "pixar", "anime", "animation",
     ],
     "🔬 Sciences": [
-        "espace", "nasa", "planète", "astéroïde", "étoile", "fusée", "satellite",
-        "scientifique", "recherche", "biologie", "chimie", "physique",
-        "découverte", "astronomie", "pieuvre", "cerveau", "adn", "neurone",
-        "artemis", "lune", "mars", "esa", "solaire", "imprimante 3d",
-        "disque dur moléculaire", "matériau", "quantique",
+        "espace", "nasa", "esa", "planète", "astéroïde", "étoile",
+        "fusée", "satellite", "scientifique", "recherche", "biologie",
+        "physique", "découverte", "astronomie", "cerveau", "adn",
+        "quantique", "lune", "mars", "imprimante 3d", "robotique",
+        "médecine", "santé", "génétique", "intelligence artificielle générale",
     ],
 }
 
@@ -357,18 +365,18 @@ def categorize(title: str) -> str:
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def get_article_url(titre: str) -> str:
-    """Recherche l'URL d'un article sur JDG via la recherche interne."""
+    """Recherche l'URL d'un article sur Presse-Citron via la recherche interne."""
     try:
         query = " ".join(titre.split()[:6])  # 6 premiers mots suffisent
         resp = requests.get(
-            "https://www.journaldugeek.com/",
+            "https://www.presse-citron.net/",
             params={"s": query},
             timeout=5,
             headers={"User-Agent": "Mozilla/5.0"},
         )
         if resp.status_code == 200:
             match = re.search(
-                r'href="(https://www\.journaldugeek\.com/(?:\d{4}/\d{2}/\d{2}/|[^"]+?/)[^"]+?/)"',
+                r'href="(https://www\.presse-citron\.net/[^"]+?/)"',
                 resp.text,
             )
             if match:
@@ -487,7 +495,7 @@ def generate_article_ideas(df: pd.DataFrame, events: list, top_articles: list) -
         best_type = df.groupby("Type_Label")["Vues"].mean().idxmax()
         events_txt = "\n".join([f"- {e['name']} ({e['start']}): {e['desc']}" for e in events[:6]]) or "Aucun événement majeur"
 
-        prompt = f"""Tu es rédacteur en chef adjoint du Journal du Geek (journaldugeek.com), site français couvrant : pop culture, nouvelles technologies, jeux vidéo, consommation et sciences.
+        prompt = f"""Tu es rédacteur en chef adjoint de Presse-Citron (presse-citron.net), site français couvrant : intelligence artificielle, technologies, smartphones, internet, réseaux sociaux, mobilité et sciences.
 
 Voici les données de la semaine écoulée :
 
@@ -507,7 +515,7 @@ Sur la base de ces données, propose **10 idées d'articles concrets** pour la s
 - Indique la **catégorie** et le **format recommandé** (article, test, critique, dossier, bon plan)
 - Priorise les sujets qui ont bien performé cette semaine
 - Exploite les événements à venir quand c'est pertinent
-- Adopte le ton 01net : direct, tech-focused, expert mais accessible
+- Adopte le ton Presse-Citron : curieux, accessible, orienté usages concrets, jamais jargonneux
 
 Format de réponse : liste numérotée, une idée par ligne."""
 
@@ -759,7 +767,7 @@ def gh_delete_archive(filename: str):
 # ─────────────────────────────────────────────
 # SIDEBAR
 # ─────────────────────────────────────────────
-LOGO_PATH = os.path.join(os.path.dirname(__file__), "logo-01net.png")
+LOGO_PATH = os.path.join(os.path.dirname(__file__), "logo-pc.svg")
 
 
 def logo_b64() -> str:
@@ -801,16 +809,17 @@ if _stored_pw and not st.session_state.get("authenticated"):
         if _logo:
             st.markdown(
                 f"<div style='text-align:center;padding:3rem 0 1.5rem;'>"
-                f"<img src='data:image/png;base64,{_logo}' "
-                f"style='width:110px;border-radius:16px;box-shadow:0 6px 24px rgba(232,0,13,.25);'>"
-                f"</div>",
+                f"<div style='display:inline-block;background:linear-gradient(135deg,#006b2e,#009640);"
+                f"border-radius:16px;padding:1rem 1.6rem;box-shadow:0 6px 24px rgba(0,107,46,.35);'>"
+                f"<img src='data:image/svg+xml;base64,{_logo}' style='width:180px;display:block;'>"
+                f"</div></div>",
                 unsafe_allow_html=True,
             )
         st.markdown(
-            "<h2 style='text-align:center;color:#E8000D;font-weight:800;"
+            "<h2 style='text-align:center;color:#00c853;font-weight:800;"
             "margin-bottom:0.3rem;'>Dashboard Rédaction</h2>"
             "<p style='text-align:center;color:#999;font-size:.85rem;"
-            "margin-bottom:1.8rem;'>01net — accès réservé</p>",
+            "margin-bottom:1.8rem;'>Presse-Citron — accès réservé</p>",
             unsafe_allow_html=True,
         )
         with st.form("login_form"):
@@ -834,7 +843,7 @@ with st.sidebar:
     if _logo:
         st.markdown(
             f"<div style='text-align:center;padding:.5rem 0 1rem;'>"
-            f"<img src='data:image/png;base64,{_logo}' style='width:90px;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.3);'>"
+            f"<img src='data:image/svg+xml;base64,{_logo}' style='width:90px;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.3);'>"
             f"</div>",
             unsafe_allow_html=True,
         )
@@ -900,7 +909,7 @@ if df is None:
         | 📊 Vue d'ensemble | Vues totales, articles, auteurs, timeline |
         | 👥 Stats par auteur | Top 5 et flops de chaque rédacteur |
         | 📈 Tendances | Catégories, types, heatmap, insights |
-        | 📅 Planning | Sorties ciné/TV (TMDB), événements tech, idées |
+        | 🗂️ Historique | Comparatif des semaines archivées |
 
         👈 **Importez votre CSV dans la barre latérale pour commencer.**
         """
@@ -914,12 +923,12 @@ w_start, w_end = week_dates(filename, df)
 next_monday = (datetime.strptime(w_end, "%Y-%m-%d") + timedelta(days=2)).strftime("%d/%m/%Y")
 is_monthly_file = (datetime.strptime(w_end, "%Y-%m-%d") - datetime.strptime(w_start, "%Y-%m-%d")).days > 20
 
-_logo_tag = f"<img src='data:image/png;base64,{_logo}' style='height:52px;border-radius:9px;margin-right:1rem;vertical-align:middle;box-shadow:0 2px 8px rgba(0,0,0,.2);'>" if _logo else ""
+_logo_tag = f"<img src='data:image/svg+xml;base64,{_logo}' style='height:52px;border-radius:9px;margin-right:1rem;vertical-align:middle;box-shadow:0 2px 8px rgba(0,0,0,.2);'>" if _logo else ""
 st.html(
     f"""<div style='
-        background: linear-gradient(135deg, #B50009 0%, #E8000D 100%);
+        background: linear-gradient(135deg, #006b2e 0%, #00c853 100%);
         border-radius: 16px; padding: 1.4rem 2rem; margin-bottom: 1.5rem;
-        box-shadow: 0 4px 20px rgba(181,0,9,.3);
+        box-shadow: 0 4px 20px rgba(0,107,46,.3);
         display:flex; align-items:center; gap:0;
     '>
         {_logo_tag}
@@ -936,15 +945,9 @@ st.html(
     </div>"""
 )
 
-if is_monthly_file:
-    tab1, tab2, tab3, tab5 = st.tabs(
-        ["📊 Vue d'ensemble", "👥 Stats par auteur", "📈 Tendances", "🗂️ Historique"]
-    )
-    tab4 = None
-else:
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(
-        ["📊 Vue d'ensemble", "👥 Stats par auteur", "📈 Tendances", "📅 Planning semaine", "🗂️ Historique"]
-    )
+tab1, tab2, tab3, tab5 = st.tabs(
+    ["📊 Vue d'ensemble", "👥 Stats par auteur", "📈 Tendances", "🗂️ Historique"]
+)
 
 # ─────────────────────────────────────────────
 # TAB 1 — VUE D'ENSEMBLE
@@ -970,7 +973,7 @@ with tab1:
     )
     st.markdown(f"<div class='kpi-grid'>{cards_html}</div>", unsafe_allow_html=True)
     st.markdown(
-        f"<p style='font-size:.85rem;color:#8B0009;margin-top:-.5rem;margin-bottom:1rem;'>"
+        f"<p style='font-size:.85rem;color:#006b2e;margin-top:-.5rem;margin-bottom:1rem;'>"
         f"🏆 <i>{top_row['Titre'][:90]}</i> — {top_row['Rédacteur']}</p>",
         unsafe_allow_html=True,
     )
@@ -988,7 +991,7 @@ with tab1:
         fig = px.bar(
             author_vues, x="Vues", y="Rédacteur", orientation="h",
             title="Vues totales par rédacteur",
-            color="Vues", color_continuous_scale=["#FFE5E5", "#E8000D", "#8B0009"],
+            color="Vues", color_continuous_scale=["#e6fff2", "#00c853", "#009640"],
             labels={"Vues": "Vues totales", "Rédacteur": ""},
         )
         fig.update_layout(coloraxis_showscale=False, height=420, margin=dict(l=0))
@@ -1020,7 +1023,7 @@ with tab1:
         fig3 = px.area(
             daily, x="Jour", y="Vues",
             title="Vues par jour (lundi → dimanche)",
-            color_discrete_sequence=["#E8000D"],
+            color_discrete_sequence=["#00c853"],
             markers=True,
         )
         fig3.update_layout(height=240, margin=dict(t=40, b=20))
@@ -1222,7 +1225,7 @@ with tab3:
         title=bar_title,
         labels={"Jour": "", "Articles": "Articles"},
         color="Articles",
-        color_continuous_scale=["#FFE5E5", "#E8000D", "#8B0009"],
+        color_continuous_scale=["#e6fff2", "#00c853", "#009640"],
         text="Articles",
     )
     fig_daily.update_traces(textposition="outside")
@@ -1246,128 +1249,13 @@ with tab3:
     fig_heat = px.imshow(
         pivot_redac,
         text_auto=True,
-        color_continuous_scale=["#FFE5E5", "#E8000D", "#8B0009"],
+        color_continuous_scale=["#e6fff2", "#00c853", "#009640"],
         aspect="auto",
         labels={"x": "", "y": "", "color": "Articles"},
     )
     fig_heat.update_layout(height=heat_height, margin=dict(t=10, b=10))
     fig_heat.update_coloraxes(showscale=False)
     st.plotly_chart(fig_heat, use_container_width=True)
-
-# ─────────────────────────────────────────────
-# TAB 4 — PLANNING
-# ─────────────────────────────────────────────
-if tab4 is not None:
-    with tab4:
-        nw_start = datetime.strptime(w_end, "%Y-%m-%d") + timedelta(days=2)
-        nw_end = nw_start + timedelta(days=6)
-
-        st.markdown(
-            f"### 📅 Semaine du {nw_start.strftime('%d/%m/%Y')} au {nw_end.strftime('%d/%m/%Y')}"
-        )
-        st.markdown("---")
-
-        # ── Calendrier événements ──
-        st.markdown("#### 📅 Événements Tech & Gaming")
-        events = get_upcoming_events(nw_start.strftime("%Y-%m-%d"), lookahead_days=14)
-        if events:
-            for ev in events:
-                date_range = ev["start"] if ev["same_day"] else f"{ev['start']} → {ev['end']}"
-                badge_color = "#dc2626" if ev["urgent"] else "#E8000D"
-                badge = f"<span style='background:{badge_color};color:#fff;font-size:.7rem;font-weight:700;padding:.15rem .5rem;border-radius:20px;margin-left:.4rem;'>{ev['label']}</span>"
-                title_html = f"<a href='{ev['url']}' target='_blank' style='color:#E8000D;font-weight:700;text-decoration:none;'>{ev['name']}</a>" if ev["url"] else f"<b>{ev['name']}</b>"
-                st.markdown(
-                    f"<div style='background:#fff;border:1px solid #FFCCCC;border-radius:10px;padding:.6rem .9rem;margin:.3rem 0;'>"
-                    f"<div style='display:flex;justify-content:space-between;align-items:center;'>"
-                    f"<span>{title_html}{badge}</span>"
-                    f"<span style='font-size:.78rem;color:#8B0009;font-weight:600;'>{date_range}</span>"
-                    f"</div>"
-                    f"<div style='font-size:.78rem;color:#666;margin-top:.15rem;'>{ev['cat']} &nbsp;·&nbsp; {ev['desc']}</div>"
-                    f"</div>",
-                    unsafe_allow_html=True,
-                )
-        else:
-            st.info("Aucun événement majeur dans les 2 prochaines semaines.")
-
-        st.markdown("#### 📰 Actualités Tech & Lancements")
-        with st.spinner("Chargement…"):
-            tech_news = get_tech_news_rss()
-        if tech_news:
-            for n in tech_news:
-                date_str = f"<span style='color:#8B0009;font-size:.78rem;'> — {n['date']}</span>" if n["date"] else ""
-                src = f"<span style='color:#999;font-size:.75rem;'> ({n['source']})</span>" if n["source"] else ""
-                link = n.get("link", "")
-                title_html = f"<a href='{link}' target='_blank' style='color:#1a0000;font-weight:600;text-decoration:none;'>{n['title']}</a>" if link else f"<b>{n['title']}</b>"
-                st.markdown(
-                    f"<div style='padding:.35rem 0;border-bottom:1px solid #f0e8ec;font-size:.84rem;'>"
-                    f"↗ {title_html}{date_str}{src}</div>",
-                    unsafe_allow_html=True,
-                )
-        else:
-            st.info("Impossible de charger les actualités (vérifiez votre connexion).")
-        st.text_area("Notes complémentaires", placeholder="Autres événements, keynotes, annonces à couvrir…", height=70, label_visibility="collapsed", key="tech_notes")
-
-        st.markdown("#### 📈 Thèmes porteurs (issus de cette semaine)")
-        top3_cats = df.groupby("Catégorie")["Vues"].mean().nlargest(3)
-        for cat, moy in top3_cats.items():
-            st.markdown(f"- **{cat}** — {fmt(int(moy))} vues/article en moy.")
-
-        st.markdown("#### ✨ Idées d'articles")
-        if st.button("🤖 Générer des idées avec Claude", use_container_width=True):
-            top_arts_data = [
-                {"titre": row["Titre"][:80], "vues": fmt(row["Vues"])}
-                for _, row in df.nlargest(5, "Vues").iterrows()
-            ]
-            with st.spinner("Claude réfléchit…"):
-                ideas_text = generate_article_ideas(df, events, top_arts_data)
-            st.session_state["generated_ideas"] = ideas_text
-
-        if "generated_ideas" in st.session_state:
-            st.markdown(
-                f"<div style='background:#fff;border:1px solid #FFCCCC;border-radius:12px;"
-                f"padding:1rem 1.2rem;font-size:.88rem;line-height:1.7;white-space:pre-wrap;'>"
-                f"{st.session_state['generated_ideas']}</div>",
-                unsafe_allow_html=True,
-            )
-            if st.button("🗑️ Effacer", key="clear_ideas"):
-                del st.session_state["generated_ideas"]
-                st.rerun()
-
-        st.text_area(
-            "Notes libres",
-            placeholder="Vos propres idées…",
-            height=80,
-            label_visibility="collapsed",
-            key="ideas_manual",
-        )
-
-        # ── Brief auto ──
-        st.markdown("---")
-        st.markdown("#### 📋 Récap automatique pour l'équipe")
-
-        top3 = df.nlargest(3, "Vues")
-        top3_authors = df.groupby("Rédacteur")["Vues"].sum().nlargest(3).index.tolist()
-        best_cat_name = df.groupby("Catégorie")["Vues"].mean().idxmax()
-        best_type_name = df.groupby("Type_Label")["Vues"].mean().idxmax()
-
-        brief_lines = [
-            f"📊 Bilan semaine {datetime.strptime(w_start, '%Y-%m-%d').strftime('%d/%m')} → {datetime.strptime(w_end, '%Y-%m-%d').strftime('%d/%m/%Y')}",
-            "",
-            f"✅  {total_arts} articles publiés · {fmt(df['Vues'].sum())} vues au total",
-            f"📊  Vues moyennes : {fmt(int(df['Vues'].mean()))} / article",
-            "",
-            f"🏆  Top article : {top3.iloc[0]['Titre'][:70]} ({fmt(top3.iloc[0]['Vues'])} vues — {top3.iloc[0]['Rédacteur']})",
-            f"🥈  2e : {top3.iloc[1]['Titre'][:70]} ({fmt(top3.iloc[1]['Vues'])} vues)",
-            f"🥉  3e : {top3.iloc[2]['Titre'][:70]} ({fmt(top3.iloc[2]['Vues'])} vues)",
-            "",
-            f"📈  Catégorie phare : {best_cat_name}",
-            f"🎯  Format le + rentable : {best_type_name}",
-            f"✍️   Top rédacteurs : {', '.join(top3_authors)}",
-        ]
-        brief = "\n".join(brief_lines)
-
-        st.code(brief, language=None)
-        st.caption("Copiez ce texte pour votre email / Slack d'équipe.")
 
 # ─────────────────────────────────────────────
 # TAB 5 — HISTORIQUE
@@ -1396,7 +1284,7 @@ with tab5:
             ("📅", str(nb_weeks),                                 "Périodes archivées"),
             ("👁️", fmt(hist["Vues totales"].sum()),               "Vues cumulées"),
             ("📝", str(hist["Articles"].sum()),                    "Articles au total"),
-            ("📈", fmt(int(hist["Vues totales"].mean())),          "Vues moy. / période"),
+            ("📈", fmt(int(hist["Vues totales"].mean())) if hist["Vues totales"].notna().any() else "—", "Vues moy. / période"),
         ]
         cards_h = "".join(
             f"<div class='kpi-card'><div class='kpi-icon'>{ico}</div>"
@@ -1409,7 +1297,7 @@ with tab5:
         fig_h1 = px.area(
             hist, x="Période", y="Vues totales",
             title="Évolution des vues totales",
-            color_discrete_sequence=["#E8000D"],
+            color_discrete_sequence=["#00c853"],
             markers=True,
         )
         fig_h1.update_layout(height=280, margin=dict(t=40, b=10), xaxis_tickangle=-20)
@@ -1422,7 +1310,7 @@ with tab5:
                 hist, x="Période", y="Articles",
                 title="Nombre d'articles par période",
                 color="Articles",
-                color_continuous_scale=["#FFE5E5", "#E8000D", "#8B0009"],
+                color_continuous_scale=["#e6fff2", "#00c853", "#009640"],
                 text="Articles",
             )
             fig_h2.update_traces(textposition="outside")
@@ -1433,7 +1321,7 @@ with tab5:
             fig_h3 = px.line(
                 hist, x="Période", y="Vues moyennes",
                 title="Vues moyennes par article",
-                color_discrete_sequence=["#E8000D"],
+                color_discrete_sequence=["#00c853"],
                 markers=True,
             )
             fig_h3.update_layout(height=280, margin=dict(t=40, b=10), xaxis_tickangle=-20)
@@ -1463,10 +1351,10 @@ with tab5:
             for col, (label, c_val, p_val) in zip(cols_comp, comp_items):
                 badge = delta_badge(c_val, p_val)
                 col.markdown(
-                    f"<div style='background:#fff;border:1px solid #FFCCCC;border-top:4px solid #E8000D;"
+                    f"<div style='background:#fff;border:1px solid #99e8be;border-top:4px solid #00c853;"
                     f"border-radius:12px;padding:1rem 1.2rem;text-align:center;'>"
-                    f"<div style='font-size:.72rem;font-weight:600;color:#8B0009;text-transform:uppercase;letter-spacing:.5px;'>{label}</div>"
-                    f"<div style='font-size:1.6rem;font-weight:800;color:#E8000D;margin:.3rem 0;'>{fmt(c_val)}</div>"
+                    f"<div style='font-size:.72rem;font-weight:600;color:#006b2e;text-transform:uppercase;letter-spacing:.5px;'>{label}</div>"
+                    f"<div style='font-size:1.6rem;font-weight:800;color:#00c853;margin:.3rem 0;'>{fmt(c_val)}</div>"
                     f"<div style='font-size:.8rem;color:#999;'>vs {fmt(p_val)} &nbsp;{badge}</div>"
                     f"</div>",
                     unsafe_allow_html=True,
